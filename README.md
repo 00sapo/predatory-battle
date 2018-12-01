@@ -12,7 +12,7 @@ It maintains a list of predatory sources from:
 
 It checks if journals, books or conferences are present in such lists.
 
-WARNING! The script is highly imprecise and should be used as a helper to human force. You should careful check suggestions coming from the script!
+WARNING! The script is highly imprecise and should be used as a helper to human work. You should carefully check suggestions coming from the script!
 
 ## Installation
 
