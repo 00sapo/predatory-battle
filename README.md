@@ -23,5 +23,5 @@ WARNING! The script is highly imprecise and should be used as a helper to human 
 ## Usage
 
 * Download the repository
-* Enter in the directory: `cd PredatoryBattle`
+* Enter in the directory: `cd predatory-battle`
 * Launch the script with a bibtex/biblatex file as argument: `python3 check_references.py bibtex_file.bib`
