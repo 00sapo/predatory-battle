@@ -1,5 +1,6 @@
 #! /usr/bin/env python3
 import requests
+import operator
 import os
 import time
 import sys
@@ -103,30 +104,49 @@ def parse_file():
 
 def search(journal_dict, string_dict):
     """
-        This function use fuzzywuzzy to search journal names in the list of
+        This function uses fuzzywuzzy to search journal names in the list of
         string_dict provided as argument. It prints to video the results.
     """
+    def _output(score):
+        print("________________________________________________\n")
+        print("WARNING! " + key + " can be a predatory publication!")
+        print("  match score: " + score)
+        print("  suspect journal: " + journal)
+        print("  it seems listed at: " + address)
     
-    for key, journal_list in journal_dict.items():
-        predatory = False
+    print("\n\nLOOKING FOR EXACT MATCHES..")
+    # search exact matches
+    for key, journal_list in list(journal_dict.items()):
+        exact_match = False
         for journal in journal_list:
             for address, string in string_dict.items():
-                match_score = fuzz.token_set_ratio(journal, string)
-                if match_score > 96:
-                    print("________________________________________________\n")
-                    print("WARNING! " + key + " can be a predatory publication!")
-                    print("  match score: " + str(match_score))
-                    print("  suspect journal: " + journal)
-                    print("  it seems listed at: " + address)
-                    predatory = True
+                if string.find(journal) > 0:
+                    _output("EXACT MATCH")
+                    del journal_dict[key]
+                    exact_match = True
                     break
-            if predatory:
+            if exact_match:
+                break
+
+    print("\n\nLOOKING FOR APPROXIMATE MATCHES (most of them will be false positives)..")
+    # search additional approximate matches
+    for key, journal_list in journal_dict.items():
+        for journal in journal_list:
+            matched_lists = {}
+            for address, string in string_dict.items():
+                    match_score = fuzz.token_set_ratio(journal, string)
+                    if match_score > 96:
+                        matched_lists[address] = match_score
+            # take the list with the maximum match score
+            if len(matched_lists) > 0:
+                address = max(matched_lists.items(), key=operator.itemgetter(1))[0]
+                _output(str(matched_lists[address]))
                 break
 
 
 string_dict = update_lists()
 journal_dict = parse_file()
 search(journal_dict, string_dict)
-print("Check out http://thinkchecksubmit.org for a guideline against predatory publishing!")
+print("\nCheck out http://thinkchecksubmit.org for a guideline against predatory publishing!")
 
-print("Remember that this tool does not handle abbreviations very well...")
+print("\nRemember that this tool does not handle abbreviations very well...")
