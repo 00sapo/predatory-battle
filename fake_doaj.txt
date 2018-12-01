@@ -1,0 +1,470 @@
+,
+,
+,
+Some journals say they are indexed in DOAJ but they are not,Last updated: 8th October 2018
+"The following journals say, or have said in the past, that they are indexed in DOAJ which is not true. In many cases they carry our logo also, without our permission. ALWAYS check at https://doaj.org that a journal is indexed even if its web site carries the DOAJ logo or says that it is indexed. You can never be too careful and it only takes as long to check as it takes to type the journal name or ISSN into the DOAJ search box and press Return.",
+"If you wish to query why a journal in included in this list, please email DOAJ: feedback@doaj.org",
+"In January 2018, this list was transferred from a blog post with the same name. Read blog post",
+Journal Title,ISSN
+Advances in Business-Related Scientific Research Journal,1855-931X        
+Advanced Materials Letters,0976-3961
+Advanced Materials Proceedings,2002-441X
+Advances in Business-Related Scientific Research Journal,1855-931X
+Al Ameen Journal of Medical Sciences,0974-1143
+American Journal of Engineering Research,2320-0936
+Anesthesiology and Pain Medicine,2228-7523
+Applied Research in Animal Reproduction,NO ISSN
+Asia Pacific Journal of Research,2320-5504
+Asian Journal of Convergence in Technology,2350-1146
+Aurora’s International Journal of Computing,2395-0420
+Australian Journal of International Social Research,2205-5436
+Bioscience Research,2218-3973
+British Journal of Earth Sciences Research (BJESR),2055-0111
+British Journal of Education (BJE),2054-6351
+British Journal of English Linguistics (BJEL),2055-6063
+British Journal of Environmental Sciences (BJES),2055-0219
+British Journal of Marketing Studies (BJMS),2053-4043
+British Journal of Medical and Health Research,2394-2967
+British Journal of Psychology Research (BJPR),2055-0863
+Computer Engineering and Information Technology Journal,2394-8434
+Dental Poster Journal,2278-7372
+Disseminate Knowledge,2321-1245
+Engineering and Scientific International Journal,2394-7179
+Em Tese,1982-0739
+Erciyes tip dergisi,2147-1789
+Estudos de Psicologia (Campinas),0103-166X
+European Academic Research,2286-4822
+"European Journal of Accounting, Auditing and Finance Research (EJAAFR)",2053-4086
+European Journal of Agriculture and Forestry Research (EJAFR),2054-6319
+European Journal of Biology and Medical Science Research (EJBMSR),2053-406X
+"European Journal of Botany, Plant Sciences and Phytology (EJBPSP)",2055-8139
+European Journal of Business and Innovation Research (EJBIR),2053-4019
+European Journal of Business and Social Sciences,2235-767X
+European Journal of Computer Science and Information Technology (EJCSIT),2054-0957
+European Journal of Educational and Development Psychology (EJEDP),2055-0170
+European Journal of English Language and Literature Studies (EJELLS),2055-0138
+European Journal of Food Science and Technology (EJFST),2056-5798
+European Journal of Hospitality and Tourism Research (EJHTR),2054-6424
+"European Journal of Logistics, Purchasing and Supply Chain Management (EJLPSCM)",2054-0930
+European Journal of Material Sciences (EJMS),2055-8112
+European Journal of Mechanical Engineering Research (EJMER),2055-6551
+European Journal of Pharmaceutical and Medical Research,2394-3211
+European Journal of Statistics and Probability (EJSP),2055-0154
+European Journal of Training and Development Studies (EJTDS),2057-5238
+Gerais,1983-8220
+Global Journal of Agricultural Research (GJAR),2053-5805
+"Global Journal of Arts, Humanities and Social Sciences (GJAHSS)",2052-635
+Global Journal of Human Resource Management (GJHRM),2053-5686
+Global Journal of Political Science and Administration (GJPSA),2054-6335
+Global Journal of Politics and Law Research (GJPLR),2053-6321
+Global Journal of Pure and Applied Chemistry Research (GJPACR),2055-0073
+Global Media Journal  (Pakistan Edition),2070-2469
+IJAERD,2348-6406
+Indian Journal of Biotechnology and Pharmaceutical Research,2347-3266
+Indian Journal Of Information Technology (INDJIT),NO ISSN
+Indian Journal of Research and Practice,2278-148X
+Indian Journal of Research in Pharmacy and Biotechnology,2321-5674
+Indian Journal of Science and Technology,0974-6846
+Indo Global Journal of Pharmaceutical Sciences,2249-1023
+Innovare Journal of Ayurvedic Sciences,2321-6824
+Innovare Journal of Business Management,2321-6816
+Innovare Journal of Critical Reviews,2394-5125
+Innovare Journal of Engineering & Technology,2347-1573
+Innovare Journal of Health Sciences,2347-5536
+Innovare Journal of Medical Sciences,2321-4406
+Innovare Journal of Sciences,2331-5496
+Innovat International Journal Of Medical & Pharmaceutical Sciences,2456-8694
+"International Advanced Research Journal in Science, Engineering and Technology (IARJSET)",2393-8021
+International Dental & Medical Journal of Advanced Research,NO ISSN
+International International Journal Of Architecture (IJA),NO ISSN
+International Journal Advanced Ayurveda and Pharmacy Research,NO ISSN
+International Journal of Advanced Accounting and Economics,NO ISSN
+International Journal of Advanced Aeronautical Engineering and Technology,NO ISSN
+International Journal of Advanced Aging Research,NO ISSN
+International Journal of Advanced Agricultural and Biological Statistics,NO ISSN
+International Journal of Advanced Agricultural Science and Technology,NO ISSN
+International Journal of Advanced Algorithms and Complexity,NO ISSN
+"International Journal of Advanced Alternative Energy, Environment and Ecology",NO ISSN
+International Journal of Advanced Archaeology,NO ISSN
+International Journal of Advanced Atmospheric Sciences and Meteorology,NO ISSN
+International Journal of Advanced Ayurveda and Integrative Medicine,NO ISSN
+International Journal of Advanced Ayurveda and Naturopathy,NO ISSN
+International Journal of Advanced Ayurveda Research,NO ISSN
+"International Journal of Advanced Ayurveda, Yoga, Unani, Siddha and Homeopathy",NO ISSN
+International Journal of Advanced Ayurvedic and Herbal Medicine,NO ISSN
+International Journal of Advanced Biochemistry,NO ISSN
+International Journal of Advanced Bioinformatics and Computational Biology,NO ISSN
+International Journal of Advanced Biophysics,NO ISSN
+International Journal of Advanced Biotechnology and Bioengineering,NO ISSN
+International Journal of Advanced Business and Economics Statistics,NO ISSN
+International Journal of Advanced Business Economics,NO ISSN
+International Journal of Advanced Chemistry and Chemical Technology,NO ISSN
+International Journal of Advanced Civil Engineering and Architecture Research,NO ISSN
+International Journal of Advanced Cloud Computing and Applied Research,NO ISSN
+International Journal of Advanced Complementary and Traditional Medicine,NO ISSN
+International Journal of Advanced Computer Science and Information Technology,NO ISSN
+International Journal of Advanced Consumer Research,NO ISSN
+International Journal of Advanced Corrosion Research,NO ISSN
+International Journal of Advanced Cultural Studies,NO ISSN
+International Journal of Advanced Dental Science and Technology,NO ISSN
+International Journal of Advanced Dermatology,NO ISSN
+International Journal of Advanced Development Studies,NO ISSN
+International Journal of Advanced Diabetes Research,NO ISSN
+"International Journal of Advanced Disease Research, Control and Management",NO ISSN
+International Journal of Advanced Earth Science and Engineering,NO ISSN
+International Journal of Advanced Electrical Engineering,NO ISSN
+International Journal of Advanced Electrochemical Research,NO ISSN
+International Journal of Advanced Electronics and Communication Engineering,NO ISSN
+International Journal of Advanced Electronics and Radar Technology,NO ISSN
+International Journal of Advanced Entrepreneurship,NO ISSN
+International Journal of Advanced Finance,NO ISSN
+International Journal of Advanced Financial and Managerial Control,NO ISSN
+International Journal of Advanced Financial Economics,NO ISSN
+"International Journal of Advanced Fire, Explosive, Environment Safety and Disaster Management",NO ISSN
+International Journal of Advanced Fisheries and Aquatic Science,NO ISSN
+International Journal of Advanced Food Science and Technology,NO ISSN
+International Journal of Advanced Forest Science and Management,NO ISSN
+International Journal of Advanced Glass and Ceramic Research,NO ISSN
+International Journal of Advanced Herbal Science and Technology,NO ISSN
+International Journal of Advanced Historical Research,NO ISSN
+International Journal of Advanced Homeopathy,NO ISSN
+International Journal of Advanced Hospitality Management and Research,NO ISSN
+International Journal of Advanced Human Resource Management,NO ISSN
+International Journal of Advanced Humanities,NO ISSN
+International Journal of Advanced Interdisciplinary Sciences,NO ISSN
+International Journal of Advanced Interdisciplinary Studies,NO ISSN
+International Journal of Advanced International Business,NO ISSN
+International Journal of Advanced Language and Linguistics,NO ISSN
+International Journal of Advanced Laser and Optical Engineering,NO ISSN
+International Journal of Advanced Law and Practices,NO ISSN
+International Journal of Advanced Leather Technology,NO ISSN
+International Journal of Advanced Library and Information Science,NO ISSN
+International Journal of Advanced Life Sciences and Applied Research,NO ISSN
+International journal of Advanced Manufacturing Technology and Engineering,NO ISSN
+International Journal of Advanced Marketing and Research,NO ISSN
+International Journal of Advanced Materials and Metallurgical Engineering,NO ISSN
+International Journal of Advanced Mathematics and Statistics,NO ISSN
+International Journal of Advanced Mechanical Engineering and Applications,NO ISSN
+International Journal of Advanced Media and Film Studies,NO ISSN
+International Journal of Advanced Medical Robotics,NO ISSN
+international Journal of Advanced Medicine,NO ISSN
+International Journal of Advanced Microbiology,NO ISSN
+"International Journal of Advanced Mining, Fuel and Mineral Engineering",NO ISSN
+International Journal of Advanced Museum and Heritage Studies,NO ISSN
+"International Journal of Advanced Nano Science, Nano Technology and Nano Engineering",NO ISSN
+"International Journal of Advanced Networking, Communication and Systems",NO ISSN
+International Journal of Advanced Nuclear Engineering and Technology,NO ISSN
+International Journal of Advanced Nursing Science and Practice,NO ISSN
+International Journal of Advanced Nutritional and Health Science,NO ISSN
+International Journal of Advanced Observational Sciences,NO ISSN
+International Journal of Advanced Obstetrics and Gynecology,NO ISSN
+International Journal of Advanced Operations Management and Research,NO ISSN
+International Journal of Advanced Ophthalmology,NO ISSN
+International Journal of Advanced Otolaryngology,NO ISSN
+International Journal of Advanced Packaging Technology,NO ISSN
+International Journal of Advanced Pathology,NO ISSN
+International Journal of Advanced Peace and Gandhian Studies,NO ISSN
+International Journal of Advanced Petroleum Engineering and Technology,NO ISSN
+International Journal of Advanced Pharmaceutical Science and Technology,NO ISSN
+International Journal of Advanced Philosophy and Education,NO ISSN
+International Journal of Advanced Physical Education,NO ISSN
+International Journal of Advanced Physics,NO ISSN
+International Journal of Advanced Physiology and Allied Sciences,NO ISSN
+International Journal of Advanced Plantation Management and Global Warming,NO ISSN
+International Journal of Advanced Plasma Science and Technology,NO ISSN
+International Journal of Advanced Plastics Technology and Engineering,NO ISSN
+International Journal of Advanced Power Electronics and Power Systems,NO ISSN
+International Journal of Advanced Production Research and Management,NO ISSN
+International Journal of Advanced Quality Management,NO ISSN
+International Journal of Advanced Remote Sensing and GIS,NO ISSN
+International Journal of Advanced Research (IJAR),2320-5407
+International Journal of Advanced Research in Artificial Intelligence,2165-4050
+International journal of advanced research in computer and communication engineering (IJARCCE),2278-1021
+International Journal of Advanced Research in Computer Science (IJARCS),0976-5697
+International Journal of Advanced Research in Education Technology and Management,2349-0012
+International Journal Of Advanced Research In Engineering And Technology (IJARET),0976-6499
+International Journal Of Advanced Research In Management (IJARM),0976 - 6332
+International Journal of Advanced Rural Management,NO ISSN
+International Journal of Advanced Salt and Marine Chemicals Research,NO ISSN
+International Journal of Advanced Scientific Research and Development,2395-6089
+International Journal of Advanced Seed and Crop Technology,NO ISSN
+International Journal of Advanced Seismology,NO ISSN
+International Journal of Advanced Social Sciences,NO ISSN
+International Journal of Advanced Space Science and Astronomy,NO ISSN
+International Journal of Advanced Speech and Hearing Research,NO ISSN
+International Journal of Advanced Sports and Leisure,NO ISSN
+International Journal of advanced Sports Medicine,NO ISSN
+International Journal of Advanced Strategic Management,NO ISSN
+International Journal of Advanced Sustainable Development,NO ISSN
+International Journal of Advanced Systems Architecture and Applications,NO ISSN
+International Journal of Advanced Textile and Fiber Research,NO ISSN
+International Journal of Advanced Tourism and Developing World,NO ISSN
+International Journal of Advanced Training and Development,NO ISSN
+"International Journal of Advanced Transport ,Vehicle Engineering and Technology",NO ISSN
+International Journal of Advanced Unani Medicine,NO ISSN
+International Journal of Advanced Urban Studies and Research,NO ISSN
+International Journal of Advanced Veterinary Science and Technology,NO ISSN
+International Journal of Advances in Health Sciences (IJHS),2349-7033
+International Journal Of Aerospace Engineering (IJASE),NO ISSN
+"International Journal of African Society, Cultures and Traditions (IJASCT)",2056-5771
+International Journal of Agriculture and Environmental Research,2455-6939
+International Journal of Agriculture Extension and Rural Development Studies,2058-9107
+International Journal Of Agriculture Research And Development (IJARD),NO ISSN
+International Journal of Agroforestry Remote Sensing and GIS,NO ISSN
+International Journal of Anesthesiology & Research (IJAR),2332-2780
+International Journal of Animal Health and Livestock Production Research (IJAHLPR),NO ISSN
+International Journal Of Applied Electronics (IJAE),NO ISSN
+"International Journal of Asian History, Culture and Tradition (IJAHCT)",2056-7553
+International Journal Of Automobile Engineering (IJAUE),NO ISSN
+International Journal of Ayurvedic Medicine,0976-5921
+"International Journal of Biochemistry, Bioinformatics and Biotechnology Studies (IJBBBS)",NO ISSN
+International Journal Of Biotechnology (IJBT),NO ISSN
+International Journal of Business and Management Invention,2319-801X
+International Journal of Business and Management Review (IJBMR),2052-6393
+International Journal of Business and Social Science,2219-1933
+"International Journal of Business, Humanities and Technology",2162-1357
+International Journal of Cancer Studies & Research (IJCR),2167-9118
+"International Journal of Cancer, Clinical Inventions and Experimental Oncology (IJCCEO)",2059-1160
+"International Journal of Cell, Animal Biology and Genetics (IJCABG)",NO ISSN
+International Journal Of Chemistry (IJC),2347-4238
+International Journal Of Civil Engineering & Technology (IJCET),0976 - 6316 
+International Journal Of Civil Engineering Research And Development (IJCERD),2248-9436
+"International Journal of Civil Engineering, Construction and Estate Management (IJCECEM)",2055-6578
+International Journal of Clinical Dental Science,2229-7790
+International Journal of Clinical Therapeutics and Diagnosis (IJCTD),2332-2926
+"International Journal of Coal, Geology and Mining Research (IJCGMR)",NO ISSN
+International Journal Of Communication Engineering (IJCOE),NO ISSN
+International Journal of Communication Networks and Information Security,2073-607X
+International Journal of Community and Cooperative Studies (IJCCS),2057-2611
+International Journal of Comprehensive Research in Biological Sciences,2893-8560
+International Journal of Computational Engineering Research (IJCER),2250-3005
+International Journal Of Computer Applications (IJCA),NO ISSN
+International Journal of Computer Applications Technology and Research,2319-8656
+International Journal Of Computer Engineering & Technology (IJCET),0976 – 6375 
+International Journal of Computer Engineering and Sciences,2394-6180
+International Journal of Computer Engineering in Research Trends,2349-7084
+International Journal Of Computer Science And Engineering Research And Development (IJCSERD),2248-9371
+International Journal of Computer Science and Information Security,1947-5500
+International Journal of Computer Science and Software Engineering (IJCSSE),2409-4285
+International Journal of Computer Systems,2394-1065
+International Journal of Computer Techniques,2391-2231
+International Journal Of Construction Engineering (IJCE),NO ISSN
+International Journal of Contemporary Dental & Medical Reviews,2394-7136
+International Journal of Contemporary Technology and Management,2278-8034
+International Journal of Creative Research Thoughts,2320-2882
+International Journal of Current Biotechnology,2321-8371
+International Journal of Dental Health Concerns,NO ISSN
+"International Journal of Dentistry, Diabetes, Endocrinology and Oral Hygiene (IJDDEOH)",NO ISSN
+International Journal Of Design And Manufacturing Technology (IJDMT),0976 – 7002
+International Journal of Developing and Emerging Economies (IJDEE),2055-6098
+International Journal of Development and Economic Sustainability (IJDES),2053-2202
+International Journal of Diabetology & Vascular Disease Research (IJDVR),2328-353X
+"International Journal of Ebola, AIDS, HIV and Infectious Diseases and Immunity (IJEAHII)",NO ISSN
+International Journal Of Education (IJE),NO ISSN
+"International Journal of Education, Learning and Development (IJELD)",2054-6300
+International Journal Of Electrical And Electronics Engineering Research And Development (IJEEERD),2248-9290
+International Journal of Electrical and Electronics Engineering Studies (IJEEES),2056-5828
+International Journal Of Electrical Engineering & Technology (IJEET),0976-6553
+"International Journal of Electrical, Electronics and Mechanical Fundamentals",2278-3989
+International Journal Of Electronics And Communication Engineering & Technology (IJECET),0976 –6472
+International Journal Of Electronics And Communication Engineering Research And Development (IJECERD),2248-9533
+International Journal of Energy and Environmental Research (IJEER),2055-0200
+International Journal of Engineering & Technical Research,2321-0869
+International Journal of Engineering and Advanced Technology Studies (IJEATS),2053-5791
+International Journal of Engineering and Management Research,2250-0758
+International Journal of Engineering Research & Management,2349-2058
+International Journal of Engineering Research and Applications,2248-9622
+International Journal of Engineering Research and Sports Science,2348-2400
+"International Journal of Engineering, Sciences and Research Technology",2277-9655
+International Journal of Engineering Technology and Computer Research (IJETCR),2348-2117
+International Journal of Engineering Technology and Management,2394-6881
+International Journal of English Language and Linguistics Research (IJELLR),2053-6313
+International Journal of English Language Teaching (IJELT),2055-0839
+International Journal of Entomology and Nematology Research (IJENR),NO ISSN
+International Journal of Environment and Pollution Research (IJEPR),2056-7545
+International Journal of Environmental Chemistry and Ecotoxicology Research (IJECER),NO ISSN
+International Journal of Financial Crisis and Black Money,NO ISSN
+International Journal Of Financial Management Research And Development (IJFMRD),2248-9339
+International Journal of Fisheries and Aquaculture Research (IJFAR),NO ISSN
+"International Journal of Food Science, Nutrition and Dietetics (IJFS)",2326-3350
+International Journal of Forensic Science & Pathology (IJFP),2332-287X
+International Journal of Geography and Regional Planning Research (IJGRPR),NO ISSN
+International Journal of Global Science Research,2348-8344
+International Journal Of Graphics And Multimedia (IJGM),0976 –6456
+International Journal of Health and Psychology Research (IJHPR),2055-0065
+International Journal of History and Philosophical Research (IJHPHR),2055-0049
+International Journal of Horticulture and Forestry Research (IJHFR),NO ISSN
+International Journal Of Human Resource Management Research And Development (IJHRMRD), 2248-941X
+International Journal of Humanities & Applied Social Sciences (IJHASS),2471-7576
+International Journal of Humanities and Social Science,2220-8488
+International Journal Of Industrial Engineering Research And Development (IJIERD),0976 – 6987
+International Journal Of Information Technology (IJIT),NO ISSN
+International Journal Of Information Technology And Management Information Systems(IJITMIS),0976 - 6413 
+"International journal of innovative research in electrical, electronics, instrumentation and control engineering (IJIREEICE)",2321-2004
+International Journal Of Innovative Technology and Adaptive Management,2347-3622
+International Journal Of Intellectual Property Rights (IJIPR),0976-6537 
+International Journal of Interdisciplinary Research Methods (IJIRM),NO ISSN
+"International Journal of International Relations, Media and Mass Communication Studies (IJIRMMCS)",2059-1853
+International Journal of Latest Trends in Engineering and Technology (IJLTET),2278-621X
+International Journal of Learning and Teaching (IJLT),2377-2891
+International Journal Of Library & Information Science (IJLIS),2277 – 3584 
+International Journal Of Library & Information Science Research And Development (IJLISRD),2277-3673
+International Journal of Library and Information Science Studies (IJLISS),NO ISSN
+International Journal of Linguistics and Computational Applications,2394-6385
+International Journal Of Management (IJM),0976-6510
+International Journal Of Management And Economics Invention,2395-7220
+International Journal Of Management Research And Development (IJMRD),2248-9398
+International Journal of Management Research and Social Science,2394-6407
+International Journal of Management Technology (IJMT),2055-0855
+"International Journal of Manufacturing, Material and Mechanical Engineering Research (IJMMMER)",NO ISSN
+International Journal Of Marketing & Human Resource Management (IJMHRM),0976- 643X
+International Journal of Mathematical Archive,2229-5046
+International Journal Of Mathematics (IJMM),NO ISSN
+International Journal of Mathematics and Soft Computing,2249-3328
+International Journal of Mathematics and Statistics Studies (IJMSS),2053-2210
+International Journal Of Mechanical Engineering & Technology (IJMET),0976 - 6359
+International Journal Of Mechanical Engineering Research And Development (IJMERD),2248-9355
+International Journal of Medical and Dental Case Reports,2394-7152
+International Journal of Medical Laboratory Research,2456-4400
+"International Journal of Micro Biology, Genetics and Monocular Biology Research (IJMGMR)",NO ISSN
+International Journal of Microbiology & Advanced Immunology (IJMAI),2329-9967
+International Journal of Multidisciplinary Consortium,2349-073X
+International Journal of Music Studies (IJMS),NO ISSN
+International Journal of Nano Studies & Technology (IJNST),2167-8685
+International Journal Of Nanotechnology (IJN),NO ISSN
+International Journal of Network and Communication Research (IJNCR),2058-7163
+International Journal of Non-Governmental Organizations (NGOs) and Essays (IJNGOE),NO ISSN
+International Journal of Novel Research and Development (IJNRD),2456-4184
+"International Journal of Nursing, Midwife and Health Related Cases (IJNMH)",NO ISSN
+International Journal of Nutrition and Metabolism Research (IJNMR),NO ISSN
+International Journal of Ophthalmology & Eye Science (IJOES),2332-290X
+International Journal of Petroleum and Gas Engineering Research (IJPGER),NO ISSN
+International Journal of Petroleum and Gas Exploration Management (IJPGEM),NO ISSN
+International Journal of Physical and Human Geography (IJPHG),2052-6385
+International Journal Of Physical Education And Sports (IJPES),NO ISSN
+International Journal of Physical Sciences Research (IJPSR),NO ISSN
+International Journal Of Physics (IJP),NO ISSN
+International Journal of Phytomedicine,0975-0185
+International Journal of Power Electronics and Drive Systems (IJPEDS),2088-8694
+International Journal Of Production Technology And Management (IJPTM),0976 – 6391
+"International Journal of Public Heath, Pharmacy and Pharmacology (IJPHPP)",NO ISSN
+International Journal of Quantitative and Qualitative Research Methods (IJQQRM),2056-3639
+International Journal of Research and Applications,2394-4544
+International Journal of Research in Advance Engineering,2395-1648
+International Journal of Science and Engineering Investigations,2251-8843
+International Journal of Scientific & Engineering Research,2229-5518
+International Journal of Scientific Management and Development,2345-3974
+International Journal of Scientific research & Management,2321-3418
+International Journal of Scientific Research in Essays and Case Studies (IJSRECS),NO ISSN
+International Journal of Series in Engineering Science,2455-3328
+International Journal of Small Business and Entrepreneurship Research (IJSBER),2053-583X
+International Journal of Social Science and Economic Research,2455-8834
+International Journal Of Social Sciences (IJSS),2347-3959
+International Journal of Sociology and Anthropology Research (IJSAR),2059-1217
+International Journal of Stem Cell Research and Transplantation (IJST),2328-3548
+International Journal Of Structural Engineering (IJSE),NO ISSN
+International Journal Of Thermal Engineering (IJTE),NO ISSN
+International Journal of Translation & Community Medicine (IJTCM),2333-8385
+International Journal of Vocational and Technical Education Research (IJVTER),2059-1195
+"International Journal of Weather, Climate Change and Conservation Research (IJWCCCR)",NO ISSN
+International Journal of Women's Health and Reproduction Sciences,2330-4456
+International Journal of World Research,2347-937X
+International Journal Series in Multidisciplinary Research,2455-2461
+International Journal Water Resources Management and Irrigation Engineering Research (IJWEMIER),NO ISSN
+International Proceedings of Economics Development and Research,2010-4626
+International Research Journal of Natural Sciences (IRJNS),2053-4116
+International Research Journal of Pure and Applied Physics (IRJPAP),2055-0103
+International SAMANM Journal of Finance and Accounting,2308-2356
+International Scientific Research Organization Journal,2455-8818
+IOSR Journal of Engineering,2250-3021
+Istinbath: Jurnal Hukum,2527-3973
+Istoriâ Zmievskogo kraâ,2414-5939
+JANKRITI PATRIKA,2454-2725
+Journal Of Advanced Chemical Technology,NO ISSN
+Journal of Advanced Clinical and Research Insights,2393-8625
+Journal Of Advanced Research In Engineering & Technology (JARET),NO ISSN
+Journal Of Agriculture Research And Development (JARD),NO ISSN
+Journal of Agriculture Science and Technology,1680-7073
+Journal of Applied and Emerging Sciences,2415-2633
+Journal of Archives in Military Medicine,2345-5071
+Journal Of Automobile Technology,NO ISSN
+Journal Of Ayurveda And Integrated Medical Sciences ,2456-3110
+Journal of Business Economics and Information Technology,2393-3259
+Journal Of Cement And Concrete Research,NO ISSN
+Journal Of Civil Engineering And Technology (JCIET),2347-4211 
+Journal Of Communication Technology,NO ISSN
+Journal of Computational Linguistics (IJCL),2180-1266
+Journal Of Computer Aided Design And Manufacturing,NO ISSN
+Journal Of Computer Applications Research And Development (JCARD),2248-9312
+Journal Of Computer Engineering & Technology (JCET),2347-3916
+Journal Of Computer Hardware Engineering,NO ISSN
+Journal Of Computer Science And Engineering Research And Development (JCSERD),2248-9312
+Journal of Critical Reviews,2394-5125
+Journal Of Digital Signal Processing,NO ISSN
+"Journal of Education, Health and Sport",2391-8306
+Journal Of Electrical Conversions,NO ISSN
+Journal Of Electrical Engineering & Technology (JEET),2347-4238
+Journal Of Electrical Machines,NO ISSN
+Journal Of Electronics And Communication Engineering & Technology (JECET),2347-419X
+Journal Of Electronics Circuits,NO ISSN
+Journal of ELT & Poetry,2347-887X
+Journal of Endocrinology and Diabetes,2374-6890
+Journal Of Engineering Design (NOT Taylor and Francis journal),NO ISSN
+Journal Of Engineering Optimization,NO ISSN
+Journal Of Engineering Structures (JOES),NO ISSN
+Journal of Environmental Nanotechnology,2319-5541
+Journal of Evolution of Medical and Dental Sciences,2278-4802
+Journal Of Fluid And Hydraulic Engineering,NO ISSN
+Journal of Innovative research in engineering sciences ,2476-7611
+Journal of International Oral Health,0976-1799
+Journal Of Internet Research,NO ISSN
+Journal Of Library And Information Science Technology(JLIST),NO ISSN
+Journal Of Management (JOM),2347-3959
+Journal of Materials Science and Surface Engineering (JMSSE),2348-8956
+Journal Of Mechanical Engineering And Technology (JMET),2347-3932
+Journal of Medical and Dental Science Research,2394-076X
+"Journal of Medicine, Radiology, Pathology and Surgery",2395-2075
+Journal Of Oil And Gas Technology,NO ISSN
+Journal Of Petrochemical Engineering,NO ISSN
+Journal Of Polymer Science And Technology,NO ISSN
+Journal Of Power Electronics,NO ISSN
+Journal Of Power System Engineering,NO ISSN
+Journal Of Public Transportation System,NO ISSN
+Journal Of Software Engineering,NO ISSN
+Journal Of Software Quality Assurance,NO ISSN
+Journal Of Software Testing,NO ISSN
+Journal Of Solar Energy,NO ISSN
+Journal Of Water Resources Development,NO ISSN
+Journal Of Wireless Communication,NO ISSN
+Jurnal Akuntansi Bisnis,2541-5204
+Jurnal Pancasila dan Kewarganegaraan,2527-7057
+Jurnal Penelitian Pertanian Terapan,2407-1781
+Jurnal Teknologi Informasi Dan Komunikasi Dalam Pendidikan,2355-4983
+Jurnal Teknologi Pendidikan,2407-7437
+Malaya Journal of Matematik,2321-5666
+Medical Laboratory Journal,2538-4449
+Mitteilungen Saechsischer Entomologen,1866-6957
+"Obsestvo: Politika, Èkonomika, Pravo",2071-9701
+Optica Applicata,1899-7015
+PAPIA - Revista Brasileira de Estudos do Contato Linguístico,2316-2767
+Parafrase: Jurnal Kajian Kebahasaan dan Kesastraan,2580-5886
+Pharmaceutical Methods,2229-4716
+"Research journal of pharmaceutical, biological and chemical sciences",0975-8585
+Research Journal of Pure Algebra,2248-9037
+Research Review International Journal of Multidisciplinary,2455-3085
+Revista Científica Retos de la Ciencia,2602-8247
+Revista de Protección Vegetal,1010-2752
+Rheumatology Research,2476-5856
+Saudi Journal of Medical Sciences,NO ISSN
+Science Research Reporter,2249-2321
+Scientific Journal of Dentistry,2394-7144
+Shodh : A Multidisciplinary International Journal (In Hindi),NO ISSN
+Socia: Jurnal Ilmu-Ilmu Sosial,2549-9475
+SOJ Immunology,2372-0948
+Suma Psicologica,0121-4381
+Swiss Journal of Research in Business and Social Sciences,2372-949X
+Teaching English with Technology,1642-1027
+The Journal of Zoology Studies,2348-5914
+Turkish Journal of Clinics and Laboratory,2149-8296
+Vidyawarta,2319-9318
+Žurnal Nano- ta Elektronnoï Fìziki (Journal of Nano- and Electronic Physics),2077-6772
