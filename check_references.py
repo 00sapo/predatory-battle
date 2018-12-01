@@ -5,7 +5,7 @@ import time
 import sys
 import codecs
 import latexcodec
-from fuzzywuzzy import fuzz
+import fuzzysearch as fuzz
 
 # the number of days aftwer which the lists are updated
 UPDATE_DAYS = 30
@@ -103,7 +103,7 @@ def parse_file():
 
 def search(journal_dict, string_dict):
     """
-        This function use fuzzywuzzy to search journal names in the list of
+        This function uses fuzzysearch to search journal names in the list of
         string_dict provided as argument. It prints to video the results.
     """
     
@@ -111,11 +111,13 @@ def search(journal_dict, string_dict):
         predatory = False
         for journal in journal_list:
             for address, string in string_dict.items():
-                match_score = fuzz.token_set_ratio(journal, string)
-                if match_score > 96:
+                # match_score = fuzz.token_set_ratio(journal, string)
+                # if match_score > 96:
+                match_score = fuzz.find_near_matches(journal, string, max_insertions=2, max_deletions=2, max_substitutions=2)
+                if len(match_score) > 0:
                     print("________________________________________________\n")
                     print("WARNING! " + key + " can be a predatory publication!")
-                    print("  match score: " + str(match_score))
+                    # print("  match score: " + str(match_score))
                     print("  suspect journal: " + journal)
                     print("  it seems listed at: " + address)
                     predatory = True
