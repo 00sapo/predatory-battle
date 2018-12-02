@@ -1,12 +1,18 @@
 #! /usr/bin/env python3
-import requests
+import string
+import re
 import operator
 import os
 import time
 import sys
 import codecs
+
+import requests
 import latexcodec
 from fuzzywuzzy import fuzz
+from nltk.corpus import stopwords 
+from nltk.tokenize import word_tokenize 
+# import refextract
 
 # the number of days aftwer which the lists are updated
 UPDATE_DAYS = 30
@@ -26,6 +32,42 @@ CHECK_LIST = {
 
 FIELD_LIST = ('booktitle', 'journal', 'maintitle', 'journaltitle', 'issuetitle', 'eventtitle')
 
+try:
+    STOP_WORDS = set(stopwords.words('english')) 
+except LookupError:
+    # downloading stop words
+    import nltk
+    nltk.download('stopwords')
+    STOP_WORDS = set(stopwords.words('english')) 
+
+PUNCTUATION_FILTER = str.maketrans("", "", string.punctuation)
+
+REGEX = re.compile('<.*?>')
+
+
+def clean(text):
+    """
+        Clean text: remove trailing spaces, html tags, punctuation, stopwords
+        and convert to lower case
+    """
+    # removing html tags
+    text = re.sub(REGEX, '', text)
+
+    # removing punctuation
+    text = text.translate(PUNCTUATION_FILTER)
+  
+    # removing stop words
+    word_tokens = word_tokenize(text) 
+    filtered_text = [] 
+    for w in word_tokens: 
+        if w not in STOP_WORDS: 
+            filtered_text.append(w) 
+    text = " ".join(str(x) for x in filtered_text)
+
+    # removing trailing spaces and lowering
+    return text.lower().strip()
+
+
 def update_lists():
     """
         Simply download pages containing lists to txt files, representing html
@@ -40,7 +82,8 @@ def update_lists():
         # checking date of last modification
         file_exists = os.path.isfile(name_path)
         if file_exists:
-            file_is_old =  time.time() - os.path.getmtime(name_path) > UPDATE_DAYS * 24 * 3600
+            file_is_old = time.time() - os.path.getmtime(name_path)\
+                > UPDATE_DAYS * 24 * 3600
         if not file_exists or file_is_old:
             print("Downloading " + name + "...")
             # Warning! I'm having troubles with SSL handshake, so I'm turning
@@ -51,8 +94,11 @@ def update_lists():
                 continue
             # force encoding
             response.encoding = 'utf-8'
+            content = response.text
+            content = clean(content)
+
             with open(name_path, 'w') as file:
-                file.write(response.text)
+                file.write(content)
             print("Downloaded and written to " + name + ".txt")
             
         with open(name_path, 'r') as file:
@@ -90,7 +136,7 @@ def parse_file():
                 start = line.find('{') + 1
                 end = line.find(',')
                 _error(start, end)
-                key = line[start:end]
+                key = clean(line[start:end])
                 journal_list = []
             elif line.startswith(FIELD_LIST):
                 start = line.find('{') + 1
@@ -98,7 +144,7 @@ def parse_file():
                 _error(start, end)
                 journal_name = line[start:end]
                 codecs.decode(journal_name, "ulatex")
-                journal_list.append(journal_name)
+                journal_list.append(clean(journal_name))
 
     return output_dict
 
