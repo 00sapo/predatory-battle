@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#! /usr/bin/env python2
 import string
 import re
 import operator
@@ -12,7 +12,6 @@ import latexcodec
 from fuzzywuzzy import fuzz
 from nltk.corpus import stopwords 
 from nltk.tokenize import word_tokenize 
-# import refextract
 
 # the number of days aftwer which the lists are updated
 UPDATE_DAYS = 30
@@ -106,12 +105,12 @@ def update_lists():
     return returned
 
 
-def parse_file():
+def parse_bib_file(filename):
     """
-        Simply parse the file given as command line argument and returns a
+        Simply parse the bib file given as argument and returns a
         dictionary with {bibtek-key: [strings]} pairs, where `strings`
         represent the name of journals, proceedings, books, collections.
-        This functions needs the global variable `FIELD_LIST`.
+        This function needs the global variable `FIELD_LIST`.
     """
     def _error(start, end):
         if end == -1 or start == 0:
@@ -121,7 +120,7 @@ def parse_file():
     output_dict = {}
     key = ""
     journal_list = []
-    with open(sys.argv[1], 'r') as bib_file:
+    with open(filename, 'r') as bib_file:
         for line in bib_file:
             line = line.strip()
             if line.startswith('@'):
@@ -147,6 +146,38 @@ def parse_file():
                 journal_list.append(clean(journal_name))
 
     return output_dict
+
+def parse_pdf_file(filename):
+    """
+        Simply parse the pdf file given as argument and returns a
+        dictionary with {generated-key: [strings]} pairs, where `strings`
+        represent the name of journals, proceedings, books, collections.
+        This function needs the global variable `FIELD_LIST`.
+    """
+    import refextract.refextract as ref 
+    references = ref.extract_references_from_file(filename)
+    output = {}
+
+    for ref in references:
+        key = ref['texkey'][0]
+        journal_name = ref['journal_title']
+        output[key] = journal_name
+    
+    return output
+
+def parse_file():
+    """
+        Depending on the extension of the file passed as command line argument,
+        it calls `parse_pdf_file` or `parse_bib_file`.
+    """
+    filename = sys.argv[1] 
+    if filename.endswith('.pdf'):
+        return parse_pdf_file(filename)
+    elif filename.endswith('.bib'):
+        return parse_bib_file(filename)
+    else:
+        print("Unknown file extension for: " + filename)
+        sys.exit(2)
 
 def search(journal_dict, string_dict):
     """
@@ -190,9 +221,12 @@ def search(journal_dict, string_dict):
                 break
 
 
-string_dict = update_lists()
-journal_dict = parse_file()
-search(journal_dict, string_dict)
-print("\nCheck out http://thinkchecksubmit.org for a guideline against predatory publishing!")
 
-print("\nRemember that this tool does not handle abbreviations very well...")
+
+if __name__ == '__main__':
+    string_dict = update_lists()
+    journal_dict = parse_file()
+    search(journal_dict, string_dict)
+    print("\nCheck out http://thinkchecksubmit.org for a guideline against predatory publishing!")
+
+    print("\nRemember that this tool does not handle abbreviations very well...")
