@@ -25,3 +25,9 @@ WARNING! The script is highly imprecise and should be used as a helper to human 
 * Download the repository
 * Enter in the directory: `cd predatory-battle`
 * Launch the script with a bibtex/biblatex file as argument: `python3 check_references.py bibtex_file.bib`
+
+## TODO
+* Improve approximate search (at now it doesn't check the order of words)
+* Add import format (EndNote, Text, ...)
+* Make everything case insensitive (lower() before of using any string)
+* Add import from PDF files (maybe using [refextract](https://pypi.org/project/refextract/) module)
