@@ -77,7 +77,7 @@ def update_lists():
 
     returned = {}
     for (name, address) in CHECK_LIST.items():
-        name_path = name + '.txt'
+        name_path = os.path.join('lists', name + '.txt')
         # checking date of last modification
         file_exists = os.path.isfile(name_path)
         if file_exists:
