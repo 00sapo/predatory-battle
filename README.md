@@ -29,4 +29,5 @@ WARNING! The script is highly imprecise and should be used as a helper to human 
 ## TODO
 * Improve approximate search (at now it doesn't check the order of words)
 * Add import format (EndNote, Text, ...)
+* Make everything case insensitive (lower() before of using any string)
 * Add import from PDF files (maybe using [refextract](https://pypi.org/project/refextract/) module)
