@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Predatory Battle</title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+  <meta name='description' content="A web service for identifying predatory journals in paper references. Check if your paper is citing predatory publications with this online tool.">
+  <meta name='keywords' content='predatory journals, publications, open access, think check submit, LIM, Laboratorio di Informatica Musicale, music informatics laboratory, università di milano, university of milan'>
+  <meta name='author' content='Federico Simonetta'>
+  <meta property='og:image' content='http://www.lim.di.unimi.it/images/homepage/logo.png' />
+  <meta property='og:title' content='Predatory Battle'>
+  <!-- <meta property='og:url' content='something' /> -->
+  <meta property='og:site_name' content='LIM - Laboratorio di Informatica Musicale' />
+  <meta property='og:type' content='article' />
+  <meta property='og:description' content="A web service for identifying predatory journals in paper references. Check if your paper is citing predatory publications with this online tool." />
+
+  <!-- Copied from lim.di.unimi.it -->
+  <link rel="icon" type="image/png" href="http://www.lim.di.unimi.it/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  <link href="http://www.lim.di.unimi.it/css/style" rel="stylesheet">
+  <link href="http://www.lim.di.unimi.it/css/style_small.css" media="(max-width:1350px)" rel="stylesheet" type="text/css">
+  <link href="http://www.lim.di.unimi.it/css/style_medium.css" media="(max-width:1650px)" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <h1>Predatory Battle</h1>
+  <hr>
+  <p>
+    <form action="predatorybattle.php" method="post" enctype="multipart/form-data">
+      Select a BibTex file to upload:
+      <input type="file" name="fileToUpload" id="fileToUpload">
+      <input type="submit" value="Upload and parse BibTex" name="submit">
+    </form>
+  </p>
+  <hr>
+
+  <p>
+    This tool allows you to check if a BibTex file contains references to predatory journals.
+    Predatory journals are journals which claim to be
+    "scientific" whithout providing a proper peer-review process and, often, with a
+    fee-based mechanism through which malevolous publishers make huge profit s.
+  </p>
+
+  <p>
+    Citing these papers impoverishes your publication, because no claim from
+    predatory publications can be trusted since no peer-review process is guaranteed.
+    We strongly suggest to always carefully check your journals. See <a href="https://thinkchecksubmit.org/" target="_blank">Think. Check.
+      Submit.</a> initiative for a guideline to identify trustworthy journals.
+  </p>
+
+  <p>
+    This tool helps you in avoiding any predatory or falsified scientific
+    publication. It checks multiple lists with two different algorithms:
+    <ol>
+      <li>an exact match algorithm, which returns references that with a moderate
+        certainty are predatory</li>
+      <li>a fuzzy search algorithms that can handle typographic errors, but for
+        which most of the reported publications arenot predatory</li>
+    </ol>
+  </p>
+
+  <p>
+    The lists used are the following:
+    <ul>
+      <li>A list of predatory journals: <a href="https://predatoryjournals.com/journals/">https://predatoryjournals.com/journals/</a></li>
+      <li>A list of predatory publishers: <a href="https://beallslist.weebly.com/">https://beallslist.weebly.com/</a></li>
+      <li>Another list of predatory journals: <a href="https://beallslist.weebly.com/standalone-journals.html">https://beallslist.weebly.com/standalone-journals.html</a></li>
+      <li>A list of journals which claims to be indexed in DOAJ, but they are not: <a href="https://docs.google.com/spreadsheets/d/1Y_Sza4rPDkf-NNX9kwiErGrKeNTM75md9B63A_gVpaQ/">https://docs.google.com/spreadsheets/d/1Y_Sza4rPDkf-NNX9kwiErGrKeNTM75md9B63A_gVpaQ/</a></li>
+      <li>A list of "questionable conferences": <a href="https://libguides.caltech.edu/c.php?g=512665&p=3503029">https://libguides.caltech.edu/c.php?g=512665&p=3503029</a></li>
+    </ul>
+    The lists are updated every 30 days.
+  </p>
+
+  <p>
+    Unfortunately, we are still not able to extract references from PDF files. However, you can extract a BibTex file using Scholarcy API demo:
+    <ol>
+      <li>Open the <a href="https://ref.scholarcy.com/api/" target="_blank">Scholarcy page</a></li>
+      <li>Select the first "Post" entry</li>
+      <li>Click on "Try it out"</li>
+      <li>Upload your PDF file</li>
+      <li>Click on the "Execute" button at the bottom</li>
+    </ol>
+    Alternatively, you can also copy-and-past your references using <a href="http://www.snowelm.com/~t/doc/tips/makebib.en.html" target="_blank">this</a> service by Makino Takaki, although you will probably need to correct the copied text.
+  </p>
+
+  <p>
+    If you like this project and want to contribute with reference extraction software, do not hesitate to contact us at <i>federico.simonetta at unimi.it</i>.
+    You can also find the source code of the code used to check the references <a href="https://framagit.org/sapo/predatory-battle">here</a>
+  </p>
+</body>
+
+</html>

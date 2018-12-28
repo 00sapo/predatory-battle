@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#!/usr/bin/env python3
 import string
 import re
 import operator
@@ -89,7 +89,7 @@ def update_lists():
             file_is_old = time.time() - os.path.getmtime(name_path)\
                 > UPDATE_DAYS * 24 * 3600
         if not file_exists or file_is_old:
-            print("Downloading " + name + "...")
+            # print("Downloading " + name + "...")
             # Warning! I'm having troubles with SSL handshake, so I'm turning
             # verification off. Not recommended!
             response = requests.get(address, verify=False)
@@ -103,7 +103,7 @@ def update_lists():
 
             with open(name_path, 'w') as file:
                 file.write(content)
-            print("Downloaded and written to " + name + ".txt")
+            # print("Downloaded and written to " + name + ".txt")
 
         with open(name_path, 'r') as file:
             returned[address] = file.read()
@@ -134,7 +134,7 @@ def parse_bib_file(filename):
                     if len(journal_list) > 0:
                         output_dict[key] = journal_list
                     else:
-                        print("WARNING! No journal found for " + key)
+                        print("<p>WARNING! No journal found for " + key + "</p>")
 
                 # search new key
                 start = line.find('{') + 1
@@ -153,34 +153,13 @@ def parse_bib_file(filename):
     return output_dict
 
 
-def parse_pdf_file(filename):
-    """
-        Simply parse the pdf file given as argument and returns a
-        dictionary with {generated-key: [strings]} pairs, where `strings`
-        represent the name of journals, proceedings, books, collections.
-        This function needs the global variable `FIELD_LIST`.
-    """
-    import refextract.refextract as ref
-    references = ref.extract_references_from_file(filename)
-    output = {}
-
-    for ref in references:
-        key = ref['texkey'][0]
-        journal_name = ref['journal_title']
-        output[key] = journal_name
-
-    return output
-
-
 def parse_file():
     """
         Depending on the extension of the file passed as command line argument,
         it calls `parse_pdf_file` or `parse_bib_file`.
     """
     filename = sys.argv[1]
-    if filename.endswith('.pdf'):
-        return parse_pdf_file(filename)
-    elif filename.endswith('.bib'):
+    if filename.endswith(('.bibtex', '.bib')):
         return parse_bib_file(filename)
     else:
         print("Unknown file extension for: " + filename)
@@ -193,13 +172,15 @@ def search(journal_dict, string_dict):
         string_dict provided as argument. It prints to video the results.
     """
     def _output(score):
-        print("________________________________________________\n")
-        print("WARNING! " + key + " can be a predatory publication!")
-        print("  match score: " + score)
-        print("  suspect journal: " + journal)
-        print("  it seems listed at: " + address)
+        print("<hr>")
+        print("<h5>WARNING! " + key + " can be a predatory publication!</h5>")
+        print("<div class='match-description'>")
+        print("  match score: " + score + "</br>")
+        print("  suspect journal: " + journal + "</br>" )
+        print("  it seems listed <a href='" + address + "' target='_blank'>here</a></br>")
+        print("</div>")
 
-    print("\n\nLOOKING FOR EXACT MATCHES..")
+    print("</br></br><h3>EXACT MATCHES</h3>")
     # search exact matches
     for key, journal_list in list(journal_dict.items()):
         exact_match = False
@@ -213,7 +194,8 @@ def search(journal_dict, string_dict):
             if exact_match:
                 break
 
-    print("\n\nLOOKING FOR APPROXIMATE MATCHES (most of them will be false positives)..")
+    print("</br></br><hr><hr><hr></br></br>")
+    print("<h3>APPROXIMATE MATCHES</h3><i>(most of them will be false positives...)</i>")
     # search additional approximate matches
     for key, journal_list in journal_dict.items():
         for journal in journal_list:
@@ -238,6 +220,6 @@ if __name__ == '__main__':
         install_nltk()
         journal_dict = parse_file()
     search(journal_dict, string_dict)
-    print("\nCheck out http://thinkchecksubmit.org for a guideline against predatory publishing!")
+    print("<p>Check out <a hef='http://thinkchecksubmit.org' target='_blank'>http://thinkchecksubmit.org</a> for a guideline against predatory publishing!</p>")
 
-    print("\nRemember that this tool does not handle abbreviations very well...")
+    print("<p>Remember that this tool does not handle abbreviations very well...</p>")
